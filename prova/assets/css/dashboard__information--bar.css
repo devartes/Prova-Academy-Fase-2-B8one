@@ -1,0 +1,59 @@
+.information__promotion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: calc(100% - 305px);
+    height: 80px;
+    left: 276px;
+    top: 80px;
+    background: var(--blue);
+    border-radius: 8px;
+    z-index: 1;
+
+}
+
+.information__promotion p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: var(--text-primary-color);
+    width: 829px;
+    height: 32px;
+}
+
+.information__promotion p span {
+    font-weight: bold;
+}
+
+.information__promotion p svg {
+    padding-left: 20px;
+    padding-right: 16px;
+}
+
+.information__promotion button {
+    width: 219px;
+    height: 40px;
+    left: 893px;
+    top: 20px;
+    border: 2px solid var(--border-button);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-primary-color);
+    text-shadow: 0px 1px 1px var(--text-shadow-color);
+    margin-right: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.information__promotion button:hover {
+    background: var(--background-color);
+    color: #2E44A1;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,243 @@
+:root {
+    --background-color: #FFFFFF;
+    --blue: #425DC7;
+    --body-color: #E5E5E5;
+    --text-primary-color: #FFFFFF;
+    --text-secundary-color: #333333;
+    --text-tertiary-color: #555555;
+    --border-button: #FFFFFF;
+    --text-shadow-color: #0000001f;
+    --insights__table-background: #FFFFFF;
+    --data-buttons-color: #FFFFFF;
+    --graphics-background: #FFFFFF;
+    --background-header-color: #142159;
+    --header-shadow-color: #00000014;
+    --input-error: red;
+    --button-disabled: #acacac;
+    --button-success: rgb(18, 151, 107);
+    --white: #fff;
+    --black: #303030;
+    --gray: #929292;
+    --light-gray: #cfcfcf;
+    --border-height: 1px;
+    --table-border-right-color: #F5F5F5;
+    --table-border-top-color: #EEEEEE;
+    --table-text-color: #474443;
+    --sidebar-hover: #F1F2F9;
+    --subboton-border-left-color: #D5D5D5;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    background: var(--body-color);
+    width: 100%;
+}
+
+.container {
+    overflow-y: auto;
+    height: calc(100% - 60px);
+    box-sizing: border-box;
+
+}
+
+@media (max-width:767px) {
+    /* de 0px até 767px */
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* de 768px até 992px*/
+    
+
+    .user__area span {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .dashboard__content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        width: auto;
+        left: 0;
+        right: 0;
+        margin: 10px;
+    }
+
+    .dashboard__content h2 {
+        margin-left: 20px;
+    }
+
+    .information__promotion {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        left: 0;
+        right: 0;
+    }
+
+    .information__promotion p span {
+        font-weight: normal;
+       
+    }
+
+    .information__promotion button {
+        display: none;
+    }
+
+    .status {
+        margin-left: 20px;
+        width: 312px;
+        height: 32px;
+        white-space: pre-wrap;
+      }
+
+    .period__buttons {
+        width: auto;
+        margin-bottom: auto;
+        overflow-x: scroll;
+        white-space: nowrap;
+        scrollbar-width: none;
+        margin: 20px;
+        left: 0;
+        right: 0;
+        height: 100%;
+    }
+
+    .period__buttons::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .graphics {
+        margin-top: 2%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        position: relative;
+    }
+
+    #canvasvendas {
+        width: auto;
+    }
+
+    #canvasrevendedores {
+        width: 100%;
+        position: relative;
+        
+    }
+
+    .main__graphics__card {
+        display: flex;
+        overflow-x: scroll;
+        white-space: nowrap;
+        scrollbar-width: none;
+      }
+      
+
+    .revendedores__content--block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ranking {
+        position: relative;
+        width: auto;
+        height: 429px;
+        top: 5px;
+        background: #FFFFFF;
+        border: 2px solid #F1F2F9;
+        border-radius: 8px;
+        white-space: nowrap;
+    }
+
+    .status {
+        margin-top: 2%;
+    }
+
+    .insights__table {
+        width: auto;
+        overflow: hidden;
+        top: 12px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .insights__table span {
+        margin-bottom: 20px;
+    }
+
+    #productsTable tr {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        align-items: center;
+        
+    }
+
+    #productsTable td {
+        display: block;
+        position: relative;
+        
+    }
+
+    .thead__title {
+        display: none;
+    }
+
+    #productsTable td:nth-child(1) {
+        width: 30%;
+        order: 4;
+        grid-area: 2/1/3/3;
+    }
+    
+    #productsTable td:nth-child(2) img {
+        order: 1;
+        grid-area: 1/1/2/3;
+    }
+
+    #productsTable td:nth-child(3) {
+        width: 95%;
+        order: 3;
+        grid-area: 1/3/2/7;
+    }
+
+    #productsTable td:nth-child(4) {
+        width: 100%;
+        order: 5;
+        grid-area: 2/3/3/5;
+        text-align: left;
+    }
+
+    #productsTable td:nth-child(5) {
+        display: none;
+        order: 2;
+    }
+
+    #productsTable td:nth-child(6) {
+        width: 80%;
+        order: 6;
+        grid-area: 2/5/3/7;
+        text-align: right;
+    }
+
+}
+
+@media (min-width:992px) {
+    /* acima de 992px */
+    /* ... */
+}

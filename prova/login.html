@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="./assets/css/reset.css" class="style">
+  <link rel="stylesheet" href="./assets/css/glob.css" class="style">
+  <link rel=”canonical” href="./login.html">
+  <link rel="shortcut icon" href="assets/img/b8one-icon.jpg" type="image/x-icon"> 
+  <title>Login</title>
+</head>
+<body>
+  <main class="login">
+    <div class="login__container">
+      <h1 class="login__title">Olá, tudo bem?👋</h1>
+      <span>Vamos decolar para grandes dias de vendas.</span>
+      <form class="login__form">
+        <p>Seu E-mail:</p>
+        <input class="login__input" type="email" placeholder="exemplo@email.com">
+        <p>Sua Senha</p>
+        <div class="password_content">       
+        <input class="login__input" type="password" placeholder="Digite sua senha" id="id_password">
+        <i class="far fa-eye" id="togglePassword"></i>
+        </div>
+        <div class="login__input__options">
+          <div class="login__input__group">
+            <input id="check" type="checkbox" class="check" checked>
+            <label for="check"><span class="icon"></span>Manter conectado</label>
+          </div>
+          <a class="login__reset" href="#">Esqueci minha senha</a>  
+        </div>
+        <button class="login__submit">Entrar</button>      
+      </form>
+    </div>
+  </main>
+  <script defer src="./assets/js/login.js"></script>
+</body>
+</html>
