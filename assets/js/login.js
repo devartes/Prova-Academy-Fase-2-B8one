@@ -76,17 +76,7 @@ const init = () => {
 
 window.onload = init;
 
-
-
-
-//  "email": "eve.holt@reqres.in",
-//  "password": "cityslicka"
-
-// {
-//     "token": "QpwL5tke4Pnpja7X4"
-// }
-
-// https://reqres.in/
+// ------------------------
 const togglePassword = document.querySelector('#togglePassword');
 const password = document.querySelector('#id_password');
 
@@ -96,6 +86,3 @@ togglePassword.addEventListener('click', function (e) {
   this.classList.toggle('fa-eye-slash');
 });
 
-
-// https://test-final.b8one.academy/
-// https://github.com/b8one-academy/dashboard-teste-final
