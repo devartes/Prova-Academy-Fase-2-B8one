@@ -9,3 +9,6 @@ Acesso da tela de login:</br>
  }
 
 https://reqres.in/
+
+
+Figma: https://www.figma.com/file/auhYYPONuFB1TmuGSgfDBZ/Prova-Academy---Fase-2?node-id=0%3A1
